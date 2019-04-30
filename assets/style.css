@@ -158,8 +158,8 @@ footer {
 .page-content a{
     display: inline-block;
     text-decoration: none;
-    color: #e74c3c;
-    border: 2px solid #e74c3c;
+    color: black;
+    
     text-transform: uppercase;
     padding: 10px 20px;
     transition: 0.4s linear;
