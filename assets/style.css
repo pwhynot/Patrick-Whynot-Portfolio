@@ -11,14 +11,14 @@ body {
     padding:0;
     margin:0;
     font-family: 'Oswald', sans-serif;
-    background: url(https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat; 
+    background: url(https://images.unsplash.com/photo-1555626040-e1c570e4a213?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1250&q=80) no-repeat; 
     background-size: cover;
     
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    padding:0;
-    margin:0;
+    padding:0px;
+    margin:0px;
 }
 
 .wrapper {
@@ -152,7 +152,7 @@ footer {
 
 .page-content p{
     color:black;
-    text-shadow: 1px 1px 2px red, 0 0 0.1em red;
+    text-shadow: 1px 1px 2px white, 0 0 0.1em white;
     margin-bottom: 20px;
     font-size: 20px;
 }
@@ -161,7 +161,7 @@ footer {
     display: inline-block;
     text-decoration: none;
     color: black;
-    
+     text-shadow: 1px 1px 2px white, 0 0 0.1em grey;
     text-transform: uppercase;
     padding: 10px 20px;
     transition: 0.4s linear;
@@ -170,4 +170,8 @@ footer {
 .page-content a:hover{
     color: #fff;
     background: #e74c3c;
+}
+
+@media only screen and (min-width: 768px) {
+
 }
