@@ -35,17 +35,6 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-right:auto;
 }
 
-.jumbotron {
-    padding: 100px;
-    margin-bottom: 30px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 2;
-    color: inherit;
-    background-color: transparent;
-} 
-
 .name {
     background:#000305;
     color: black;
@@ -75,11 +64,7 @@ p, h1, h2, h3, h4, h5, h6 {
     display:flex;
     margin:20px 0 0 0;
 }
-.profilePicture {
-    width:200px;
-    height:200px;
-    margin:0 20px 0 0;
-}
+
 .aboutMeTitle {
     color:darkred;
     font-family: 'Oswald', sans-serif;
@@ -161,7 +146,7 @@ footer {
     display: inline-block;
     text-decoration: none;
     color: black;
-     text-shadow: 1px 1px 2px white, 0 0 0.1em grey;
+    text-shadow: 1px 1px 2px white, 0 0 0.1em white;
     text-transform: uppercase;
     padding: 10px 20px;
     transition: 0.4s linear;
@@ -172,6 +157,12 @@ footer {
     background: #e74c3c;
 }
 
+img {
+    border: 5px solid #e74c3c;
+    border-radius: 2px;
+    width: 200px;
+    height: 200px;
+  }
 @media only screen and (min-width: 768px) {
 
 }
